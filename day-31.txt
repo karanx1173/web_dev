@@ -1,0 +1,13 @@
+Day 31: Asynchronous JavaScript and Callbacks
+
+Topic: Introduction to Asynchronous Programming
+
+Theory Content:
+
+    JavaScript is synchronous, but async operations (e.g., network requests) are needed.
+    Callbacks: functions passed as arguments to run after an async operation completes.
+
+Notes:
+
+    Callbacks can lead to "callback hell" if nested too deeply.
+    Understanding async operations is crucial for working with APIs and user interactions.

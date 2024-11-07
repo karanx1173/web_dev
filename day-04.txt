@@ -1,0 +1,7 @@
+### *Day 4: HTML5 Semantic Elements*
+
+Today I focused on HTML5 and its semantic elements. I learned how to use the <header>, <footer>, <article>, <section>, and <nav> tags to give structure and meaning to my webpage. These tags help improve accessibility and SEO. I updated my simple webpage by using semantic tags, which made the code cleaner and more organized.
+
+Key Takeaways:
+- Semantic tags: <header>, <footer>, <article>, <section>, <nav>
+- Improved structure and accessibility

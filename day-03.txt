@@ -1,0 +1,8 @@
+### *Day 3: Images, Tables, and Forms*
+
+Today was all about adding more dynamic elements to a webpage. I learned how to add images using the <img> tag, making sure to always include an alt attribute for accessibility. I also explored tables, using tags like <table>, <tr>, <td>, and <th> to organize data. The most challenging part was understanding how forms work. I created a simple form using the <form> tag, and learned about input elements like <input>, <textarea>, and <button>.
+
+Key Takeaways:
+- Adding images: <img src="image.jpg" alt="description">
+- Tables: <table>, <tr>, <th>, <td>
+- Forms: <form>, <input>, <textarea>

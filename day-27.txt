@@ -1,0 +1,14 @@
+Day 27: String Manipulation
+
+Topic: Working with Strings
+
+Theory Content:
+
+    Strings represent text and can be manipulated with string methods:
+        toUpperCase(), toLowerCase(), slice(), substring(), split()
+    Template literals (`...${variable}...`) allow embedding variables in strings.
+
+Notes:
+
+    Template literals make strings with variables easier to read.
+    Practice with different string methods for effective text manipulation.

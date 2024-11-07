@@ -1,0 +1,13 @@
+Day 28: Error Handling
+
+Topic: Handling Errors with Try-Catch
+
+Theory Content:
+
+    Errors are managed with try, catch, and finally.
+    Common error types include syntax errors, type errors, and reference errors.
+
+Notes:
+
+    Use error handling to manage unexpected issues and prevent app crashes.
+    Logging errors can help diagnose issues during development.

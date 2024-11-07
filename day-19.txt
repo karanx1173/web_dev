@@ -1,0 +1,14 @@
+Day 19: Introduction to JavaScript
+
+Topic: What is JavaScript?
+
+Theory Content:
+
+    JavaScript is a programming language used to make web pages interactive.
+    It's primarily used on the client side, but can also be used on the server side with environments like Node.js.
+    JavaScript runs in the browser, enabling dynamic content, form validations, animations, etc.
+
+Notes:
+
+    JavaScript is often abbreviated as JS.
+    It’s important to understand its role in the "HTML-CSS-JavaScript" trio.

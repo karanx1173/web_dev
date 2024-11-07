@@ -1,0 +1,16 @@
+Day 14: CSS Grid Basics
+
+Topic: CSS Grid for Layouts
+
+Theory Content:
+
+    CSS Grid is a layout system that arranges elements in rows and columns.
+    Important properties:
+        display: grid; to start a grid container.
+        grid-template-columns and grid-template-rows to define columns and rows.
+        grid-gap or gap to set spacing between grid items.
+
+Notes:
+
+    CSS Grid provides greater control over complex layouts than Flexbox.
+    Useful for designing multi-row or multi-column layouts.

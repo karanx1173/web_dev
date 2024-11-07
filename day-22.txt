@@ -1,0 +1,14 @@
+Day 22: Control Structures: Conditionals
+
+Topic: Using Conditionals in JavaScript
+
+Theory Content:
+
+    Conditional statements control program flow based on conditions.
+        if, else if, and else statements execute based on conditions.
+        switch statements handle multiple conditions.
+
+Notes:
+
+    Always use === for comparison in conditional statements to avoid unexpected type coercion.
+    Switch statements are useful for managing multiple possible values.

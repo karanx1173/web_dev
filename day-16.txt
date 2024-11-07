@@ -1,0 +1,18 @@
+Day 16: CSS Best Practices and Optimization
+
+Topic: Writing Clean, Efficient CSS
+
+Theory Content:
+
+    Best practices for maintainable CSS:
+        Keep CSS organized and use comments.
+        Use shorthand properties for brevity.
+        Avoid overusing IDs, which can complicate specificity.
+    Optimization tips:
+        Minimize CSS to reduce page load times.
+        Remove unused CSS and consider using tools like CSS preprocessors (Sass, Less).
+
+Notes:
+
+    Clean, organized CSS makes it easier to update styles.
+    Optimizing CSS is crucial for web performance.

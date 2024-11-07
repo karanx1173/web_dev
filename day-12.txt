@@ -1,0 +1,17 @@
+Day 12: CSS Positioning
+
+Topic: Positioning Elements in CSS
+
+Theory Content:
+
+    CSS positioning properties:
+        Static: The default position, which places elements according to the normal document flow.
+        Relative: Positioned relative to its normal position.
+        Absolute: Positioned relative to the nearest positioned ancestor.
+        Fixed: Positioned relative to the viewport and stays in place during scrolling.
+        Sticky: A hybrid of relative and fixed positioning.
+
+Notes:
+
+    Fixed positioning is useful for elements like navigation bars that should remain visible.
+    Absolute positioning removes elements from the normal document flow.

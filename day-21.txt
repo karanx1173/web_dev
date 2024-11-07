@@ -1,0 +1,17 @@
+Day 21: Operators and Expressions
+
+Topic: Operators in JavaScript
+
+Theory Content:
+
+    Operators are used to perform operations on values.
+    Types of operators:
+        Arithmetic (+, -, *, /)
+        Assignment (=, +=, -=)
+        Comparison (==, ===, !=, !==)
+        Logical (&&, ||, !)
+
+Notes:
+
+    === checks both value and type, whereas == only checks value.
+    Logical operators are essential for condition handling.

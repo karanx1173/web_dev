@@ -1,0 +1,16 @@
+Day 9: CSS Box Model
+
+Topic: Understanding the Box Model
+
+Theory Content:
+
+    The box model consists of four parts: content, padding, border, and margin.
+    Content: The area where text and images appear.
+    Padding: Space inside the element, around the content.
+    Border: A line that wraps around the padding and content.
+    Margin: Space outside the element that separates it from other elements.
+
+Notes:
+
+    The box model is crucial for layout and spacing.
+    Use box-sizing: border-box; to include padding and border within the element's total width and height.

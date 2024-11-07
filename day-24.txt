@@ -1,0 +1,15 @@
+Day 24: Functions and Scope
+
+Topic: Defining and Using Functions
+
+Theory Content:
+
+    Functions are reusable blocks of code.
+        Declared with function keyword or arrow syntax.
+    Scope determines variable visibility.
+        Local scope (within functions) vs. global scope (accessible throughout the script).
+
+Notes:
+
+    Functions help organize code and make it modular.
+    Use arrow functions for shorter syntax in modern JavaScript.

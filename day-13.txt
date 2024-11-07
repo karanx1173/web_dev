@@ -1,0 +1,18 @@
+Day 13: Flexbox Basics
+
+Topic: Introduction to Flexbox
+
+Theory Content:
+
+    Flexbox is a layout model that allows responsive alignment and spacing of elements.
+    Important properties:
+        display: flex; to initiate a flex container.
+        justify-content for horizontal alignment.
+        align-items for vertical alignment.
+        flex-direction to control row or column layout.
+
+Notes:
+
+    Flexbox simplifies layout management, especially for centering elements.
+    Flex properties adapt well to responsive design.
+

@@ -1,0 +1,52 @@
+Today i have done a practice in html and write some codes like for form and html basics
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rolls-Royce Motor Cars: Inspiring Greatness</title>
+  </head>
+  <body>
+    <br />
+    <center>
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkwuMOG80bPYHyqVRXUDy1En-J56S9fVF2Vg&s"
+        height="50px"
+        width="40px"
+      />
+      <br><br>
+      <img src="https://m.economictimes.com/thumb/msid-102952769,width-1200,height-900,resizemode-4,imgsize-26866/the-cars-exterior-design-includes-a-removable-carbon-fiber-hardtop-and-a-modern-grille-.jpg" height="15%" width="15%">
+    </center>
+    <marquee behavior="" direction="">Rolls Royce</marquee>
+    <p>
+      <strong>Rolls-Royce Motor Cars Limited</strong> is a British luxury automobile maker that
+      has operated as a wholly owned subsidiary of BMW AG since 2003 – as the
+      exclusive manufacturer of <em>Rolls-Royce-branded motor cars</em>w. The company's
+      administrative and production headquarters are located on the 42-acre (17
+      ha) Goodwood Estate in <mark> Goodwood, West Sussex, England, United Kingdom </mark>.
+      <br />
+      <br />
+      From 1906 to 2003, motor cars were manufactured and marketed under the
+      <u> Rolls-Royce brand </u> by Rolls-Royce Limited and Rolls-Royce Motors. The
+      Rolls-Royce Motor Cars subsidiary of BMW AG has no direct relationship to
+      Rolls-Royce-branded vehicles produced before 2003, other than having
+      briefly supplied components and engines. <del>The Bentley Motors Limited</del>
+      subsidiary of Volkswagen AG is the direct successor to Rolls-Royce Motors
+      and various other predecessor entities that produced Rolls-Royce and
+      Bentley branded cars between the foundation of each company and 2003, when
+      the BMW-controlled entity started producing cars under the Rolls-Royce
+      brand.
+    </p>
+    <h2>Models</h2>
+    <ul>
+      <li>Phantom</li>
+      <li>Phantom Extended</li>
+      <li>Spectre</li>
+      <li>Ghost</li>
+      <li>Ghost Extended</li>
+      <li>Culinian Series II</li>
+      <li>Black Badge</li>
+    </ul>
+  </body>
+</html>

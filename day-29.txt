@@ -1,0 +1,15 @@
+Day 29: JavaScript DOM Manipulation
+
+Topic: Manipulating the DOM
+
+Theory Content:
+
+    DOM (Document Object Model) represents HTML as a tree structure.
+    Access elements with methods like getElementById, querySelector.
+    Change content and attributes using properties like .innerHTML and .setAttribute.
+
+Notes:
+
+    The DOM is the key to adding interactivity to HTML pages.
+    querySelector is versatile and supports CSS selectors.
+

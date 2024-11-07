@@ -1,0 +1,14 @@
+Day 7: Introduction to CSS
+
+Topic: What is CSS?
+
+Theory Content:
+
+    CSS (Cascading Style Sheets) is a language used to control the presentation of HTML elements.
+    CSS provides control over the layout, colors, fonts, and overall appearance of web content.
+    Different ways to link CSS to HTML include inline styles, internal (within <style> tags), and external stylesheets (using <link>).
+
+Notes:
+
+    CSS helps maintain a separation of content (HTML) and presentation (CSS).
+    External stylesheets are the preferred method as they keep HTML and CSS separate and organized.

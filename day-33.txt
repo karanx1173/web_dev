@@ -1,0 +1,14 @@
+Day 33: Async/Await
+
+Topic: Using Async/Await for Cleaner Asynchronous Code
+
+Theory Content:
+
+    async/await is syntactic sugar for handling promises more naturally.
+    await pauses code execution until a promise resolves or rejects.
+
+Notes:
+
+    Async/await simplifies reading and writing async code.
+    Always use try...catch with async functions for error handling.
+

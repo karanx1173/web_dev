@@ -1,0 +1,14 @@
+Day 11: Typography
+
+Topic: CSS for Typography
+
+Theory Content:
+
+    Font properties include font-family, font-size, font-weight, and font-style.
+    Text properties include text-align, text-decoration, text-transform, and line-height.
+    Web-safe fonts are recommended for cross-browser compatibility.
+
+Notes:
+
+    Setting line-height improves readability.
+    Web fonts, like Google Fonts, can be linked externally for more variety.

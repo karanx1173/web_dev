@@ -1,0 +1,15 @@
+Day 25: Objects in JavaScript
+
+Topic: Introduction to Objects
+
+Theory Content:
+
+    Objects store data in key-value pairs.
+    Objects can have properties (values) and methods (functions).
+    Create objects using object literals or constructors.
+
+Notes:
+
+    Use this keyword in object methods to refer to the object itself.
+    Objects are essential for organizing related data and behavior.
+

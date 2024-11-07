@@ -1,0 +1,15 @@
+Day 20: JavaScript Basics: Syntax and Variables
+
+Topic: Syntax and Variables
+
+Theory Content:
+
+    JavaScript syntax consists of statements, comments, and code blocks.
+    Variables store data and are declared using var, let, or const.
+        let and const are preferred over var for modern JavaScript.
+    Data types include strings, numbers, booleans, arrays, and objects.
+
+Notes:
+
+    Use let for variables that can change and const for constants.
+    JavaScript is loosely typed, so variables can change type.

@@ -1,0 +1,16 @@
+Day 15: CSS Transitions and Animations
+
+Topic: Adding Transitions and Animations
+
+Theory Content:
+
+    Transitions smooth out changes in CSS properties over a specified duration.
+        transition-property, transition-duration, and transition-timing-function are key properties.
+    Animations allow control over multiple CSS property changes.
+        @keyframes defines animation stages.
+        animation-name, animation-duration, and animation-iteration-count are essential for animations.
+
+Notes:
+
+    Transitions work well for hover effects and smooth state changes.
+    Use animations sparingly to maintain good performance.

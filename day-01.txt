@@ -1,0 +1,7 @@
+### *Day 1: Introduction to HTML*
+
+Today, I started learning HTML. I learned the basic structure of an HTML document, including the <!DOCTYPE html> declaration, the <html>, <head>, and <body> tags. It was exciting to see how HTML structures a webpage. I practiced creating a simple webpage with a title using the <title> tag, and added some text within the <h1> and <p> tags. The concept of tags and elements made sense, and I got my first taste of creating content for the web!
+
+Key Takeaways:
+- HTML structure: <!DOCTYPE html>, <html>, <head>, <body>
+- First tags: <h1>, <p>, <title>

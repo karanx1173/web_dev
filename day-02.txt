@@ -1,0 +1,7 @@
+### *Day 2: Working with Text and Links*
+
+I learned how to format text today. I explored text-related tags such as <h2>, <h3>, <ul>, <ol>, and <li>. I created unordered and ordered lists, and I was able to use the <strong> and <em> tags to emphasize text. The most interesting part was working with links. I used the <a> tag to create hyperlinks, which opened up new possibilities for navigation.
+
+Key Takeaways:
+- Formatting text: <h2>, <strong>, <em>
+- Creating links: <a href="URL">

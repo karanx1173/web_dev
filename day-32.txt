@@ -1,0 +1,14 @@
+Day 32: Promises in JavaScript
+
+Topic: Working with Promises
+
+Theory Content:
+
+    Promises simplify async code and handle success/failure outcomes.
+        .then() handles success, .catch() handles errors.
+    Use Promise.all to handle multiple promises at once.
+
+Notes:
+
+    Promises improve readability and make async operations more manageable.
+    Combining promises allows handling multiple async tasks.

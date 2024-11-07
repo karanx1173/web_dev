@@ -1,0 +1,16 @@
+Day 23: Loops in JavaScript
+
+Topic: Iteration and Loops
+
+Theory Content:
+
+    Loops repeat code blocks based on conditions.
+        for loop: runs a set number of times.
+        while loop: runs while a condition is true.
+        do...while loop: runs at least once, then checks the condition.
+        for...of and for...in for iterating over arrays and objects.
+
+Notes:
+
+    Be cautious of infinite loops by ensuring loop conditions are met.
+    for...of is great for iterating over arrays, for...in for object properties.

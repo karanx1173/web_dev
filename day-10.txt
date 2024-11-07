@@ -1,0 +1,16 @@
+Day 10: Colors and Backgrounds
+
+Topic: Applying Colors and Backgrounds
+
+Theory Content:
+
+    CSS provides different ways to define colors: named colors, HEX, RGB, and HSL.
+    Background properties:
+        background-color to set the background color.
+        background-image to set an image as the background.
+        background-repeat and background-position to control image behavior.
+
+Notes:
+
+    RGBA and HSLA allow control over opacity.
+    Use background-attachment: fixed; to keep a background image in place while scrolling.

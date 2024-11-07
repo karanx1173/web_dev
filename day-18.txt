@@ -1,0 +1,232 @@
+Today i learn cards and some hover effects on these...
+
+HTML CODE>>>>>>
+
+
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head><body style="background-image: url(https://img.pikbest.com/wp/202408/dark-blue-background-texture-smoke-wallpaper_9912065.jpg!sw800);background-size:cover"><div class="abc">
+    <div class="card">
+        <div class="image-box">
+            <img src="cards_files/Charge-Cars-1967-Ford-Mustang-EV-img1.jpg">
+        </div>
+        <div class="content">
+            <h2>Ford Mustang 1967</h2>
+            <p>Beyond all that power, the 1967 Shelby GT500 had a 
+muscular presence with its fiberglass hood scoop, driving lights, 
+distinctive stripes, and side scoops that gave the car its muscular 
+presence. All this added up to a driving experience like no other.</p>
+        </div>
+    </div>
+    <div class="card1">
+        <div class="image-box1">
+            <img src="cards_files/6-mercedes-maybach-sclass.avif">
+        </div>
+        <div class="content1">
+            <h2>Mercedes-Maybach-S-Class</h2>
+            <p>Maybach (German: [ˈmaɪbax], MY-baakh) is a German luxury 
+car brand owned by and a part of Mercedes-Benz AG. The original company 
+was founded in 1909 by Wilhelm Maybach and his son Karl Maybach, 
+originally as a subsidiary of Luftschiffbau Zeppelin GmbH, and it was 
+known as Luftfahrzeug-Motorenbau GmbH until 1999</p>
+        </div>
+    </div>
+</div>
+    <link rel="stylesheet" href="cards_files/new.css" <="" linkrel="">
+
+
+    
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>
+
+
+CSS CODE>>>>>
+
+
+.abc{
+    padding:100px 150px;
+}
+.card {
+    width: 600px;
+    aspect-ratio: 1/0.7; /* Aspect ratio of approximately 1:0.7 */
+    border-radius: 8px;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden; /* Ensure content within .card respects its dimensions */
+    float: left;
+}
+
+.card .image-box {
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    overflow: hidden; /* Ensure image doesn't overflow */
+}
+
+.card .image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Cover the entire box */
+    object-position: 50% 90%; /* Adjust positioning of the image */
+    border-radius: inherit;
+    transition: 0.5s ease-in-out;
+}
+
+.card::after {
+    content: "";
+    position: absolute;
+    inset: 1;
+    border: 2px solid white;
+    border-radius: inherit;
+    opacity: 0;
+    transition: 0.4s ease-in-out;
+}
+
+.card:hover img {
+    filter: grayscale(1) brightness(0.4); /* Apply grayscale and brightness on hover */
+}
+
+.card:hover::after {
+    opacity: 1;
+    inset: 20px; /* Adjust the inset to create a border effect */
+}
+
+.content {
+    position: absolute;
+    width: 80%;
+    top: 50%; /* Adjust the distance from the bottom */
+    left: 50%;
+    text-align: center;
+    color: white;
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease-in-out;
+    transform: translate(-50%, -50%);
+}
+
+.card:hover .content {
+    opacity: 1; /* Show content on hover */
+}
+
+/* Additional styles for .content text */
+.content h2 {
+    font-size: 1.7rem;
+    margin: 0;
+}
+
+.content p {
+    font-size: 1rem;
+    margin: 8px 0 0;
+}
+.card1 {
+    width: 600px;
+    aspect-ratio: 1/0.7; /* Aspect ratio of approximately 1:0.7 */
+    border-radius: 8px;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden; /* Ensure content within .card respects its dimensions */
+    float: right;
+}
+
+.card1 .image-box1 {
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    overflow: hidden; /* Ensure image doesn't overflow */
+}
+
+.card1 .image-box1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Cover the entire box */
+    object-position: 50% 90%; /* Adjust positioning of the image */
+    border-radius: inherit;
+    transition: 0.5s ease-in-out;
+}
+
+.card1::after {
+    content: "";
+    position: absolute;
+    inset: 1;
+    border: 2px solid white;
+    border-radius: inherit;
+    opacity: 0;
+    transition: 0.4s ease-in-out;
+}
+
+.card1:hover img {
+    filter: grayscale(1) brightness(0.4); /* Apply grayscale and brightness on hover */
+}
+
+.card1:hover::after {
+    opacity: 1;
+    inset: 20px; /* Adjust the inset to create a border effect */
+}
+
+.content1 {
+    position: absolute;
+    width: 80%;
+    top: 50%; /* Adjust the distance from the bottom */
+    left: 50%;
+    text-align: center;
+    color: white;
+    opacity: 0; /* Initially hidden */
+    transform: translate(-50%, -50%);
+    transition: opacity 0.3s ease-in-out;
+}
+
+.card1:hover .content1 {
+    opacity: 1; /* Show content on hover */
+}
+
+/* Additional styles for .content text */
+.content1 h2 {
+    font-size: 1.7rem;
+    margin: 0;
+}
+
+.content1 p {
+    font-size: 1rem;
+    margin: 8px 0 0;
+}

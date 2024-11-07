@@ -1,0 +1,17 @@
+Day 8: CSS Selectors and Specificity
+
+Topic: Understanding CSS Selectors and Specificity
+
+Theory Content:
+
+    Selectors target HTML elements to apply styles.
+        Element selector (e.g., p) applies styles to all elements of a specific type.
+        Class selector (e.g., .example) allows multiple elements to share styles.
+        ID selector (e.g., #header) applies styles to a unique element.
+    Specificity determines which styles are applied when multiple selectors target the same element.
+        ID selectors have higher specificity than class selectors, which have higher specificity than element selectors.
+
+Notes:
+
+    Specificity is essential for managing which styles are applied.
+    Inline styles have the highest specificity and override other styles.

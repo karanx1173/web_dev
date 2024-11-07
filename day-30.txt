@@ -1,0 +1,14 @@
+Day 30: Events in JavaScript
+
+Topic: Handling Events
+
+Theory Content:
+
+    Events are user interactions or browser actions.
+        click, mouseover, keydown, load
+    Attach event listeners to elements using addEventListener.
+
+Notes:
+
+    Event listeners add interactivity and respond to user actions.
+    Practice adding, removing, and triggering events.

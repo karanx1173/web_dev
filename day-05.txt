@@ -1,0 +1,7 @@
+### *Day 5: Best Practices and Validation*
+
+On the last day of this week’s HTML training, I focused on best practices and ensuring that my HTML was correct. I learned about proper indentation and comments to make my code easier to read. I also explored the importance of validating HTML using the W3C Validator tool to check for errors. I went back to my previous pages and fixed any issues, ensuring they were both functional and semantically correct.
+
+Key Takeaways:
+- Best practices: Indentation, comments
+- Validation: W3C Validator

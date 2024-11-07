@@ -1,0 +1,15 @@
+Day 26: Arrays in JavaScript
+
+Topic: Understanding Arrays
+
+Theory Content:
+
+    Arrays store ordered lists of items.
+    Common array methods:
+        push(), pop(), shift(), unshift()
+        map(), filter(), reduce()
+
+Notes:
+
+    Arrays are zero-indexed (first element is at index 0).
+    map, filter, and reduce are powerful for data manipulation.
